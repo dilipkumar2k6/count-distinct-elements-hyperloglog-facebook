@@ -68,6 +68,7 @@ Similary, we can have following
 - hash(objectId) => 64 bit representation
 - count the number of leading `0`
 - estimate : 2^max(num_zeros(elem) for elem in data)
+
 ![](assets/hll-basics.png)
 ## Improve Hyperloglog accuracy
 - Use first 4 bits to choose bucket
@@ -76,9 +77,11 @@ Similary, we can have following
 - Take the average of each bucket_max `avg`
 - Total number will be `2^avg`
 - You can do parallel operations on each bucket and then use central server to get results from each bucket to calculate result
+
 ![](assets/hll-buckets.png)
 
 ## Hyperloglog implementation in Redis
 - Redis has implementation of Hyperloglog
+
 ![](assets/hll-redis.png)
 
