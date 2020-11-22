@@ -79,9 +79,16 @@ Similary, we can have following
 - You can do parallel operations on each bucket and then use central server to get results from each bucket to calculate result
 
 ![](assets/hll-buckets.png)
-
+## Use of multi hash functuoin to improve accuracy 
+- This is based on count min sketch algorithm
+![](assets/hll-count-min-sketch.png) 
 ## Hyperloglog implementation in Redis
 - Redis has implementation of Hyperloglog
 
 ![](assets/hll-redis.png)
+
+# Reference 
+https://www.youtube.com/watch?v=eV1haPUt0NU&t=583s&ab_channel=GauravSen
+
+https://www.youtube.com/watch?v=jD2d7jr7z1Q
 
