@@ -82,6 +82,9 @@ Similary, we can have following
 ## Use of multi hash functuoin to improve accuracy 
 - This is based on count min sketch algorithm
 ![](assets/hll-count-min-sketch.png) 
+
+## Overall architecture
+![](assets/hll-architecture.png)
 ## Hyperloglog implementation in Redis
 - Redis has implementation of Hyperloglog
 
@@ -92,3 +95,4 @@ https://www.youtube.com/watch?v=eV1haPUt0NU&t=583s&ab_channel=GauravSen
 
 https://www.youtube.com/watch?v=jD2d7jr7z1Q
 
+https://www.youtube.com/watch?v=1y9wqQUTvC4&ab_channel=BenLangmead
